@@ -242,5 +242,6 @@
   }
   #int{
     width: 80vw;
+    text-align: center;
   }
 }

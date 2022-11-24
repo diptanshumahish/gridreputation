@@ -265,7 +265,7 @@ export default function Home() {
         </section>
         <footer>
           &copy; Grid Reputation 2022 <br />
-          <Link href="/">Conttact Us</Link>
+          <Link href="/contactus">Contact Us</Link>
         </footer>
       </main>
     </div>
