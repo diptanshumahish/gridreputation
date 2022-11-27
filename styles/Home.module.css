@@ -1,7 +1,6 @@
 #header {
   position: relative;
   padding: 2rem 4rem;
-  top: 5rem;
   right: 0;
   left: 0;
   width: 100vw;
@@ -9,34 +8,59 @@
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
+
+	animation: gradient 15s ease infinite;
+  background-image: url('/assets/GRID.svg');
+  
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 #welcomeImage {
   height: auto;
   width: 25vw;
   border-radius: 2rem;
-  box-shadow: rgba(149, 157, 165, 0.714) 0px 8px 24px;
+  /* box-shadow: rgba(149, 157, 165, 0.714) 0px 8px 24px; */
 }
 #headerText {
   width: 60vw;
 }
 #headerText h1 {
   font-size: 4rem;
-  background-color: var(--themeColor);
   color: white;
-  padding: 1rem;
   margin: 0;
-  border-radius: 0.5rem;
+
   margin-bottom: 1rem;
 }
 #headerContent {
   font-size: 1.5rem;
   font-weight: 500;
+  color: white;
 }
 .marEle {
   font-size: 3rem;
   padding: 1rem;
   font-weight: 600;
-  color: var(--themeSec);
+  color:WHITE;
+}
+#discover{
+  background-color:var(--themeColor);
+  padding: 1rem 3rem;
+  border-radius: 0.4rem;
+  color: white;
+  font-size: 3rem;
+  width: fit-content;
+  font-weight: bold;
+  box-shadow: rgba(14, 17, 19, 0.254) 0px 8px 24px;
 }
 .testCard {
   display: flex;
@@ -89,7 +113,7 @@
   gap:0.5rem;
   flex-direction: column;
   align-items: center;
-  box-shadow: rgba(149, 157, 165, 0.614) 0px 8px 24px;
+
  
 }
 .inHead{
@@ -127,7 +151,8 @@
   align-items: center;
 }
 #serviceContent{
-  min-width: min-content
+  min-width: min-content;
+  margin-bottom: 2rem;
 }
 .serviceCard {
   background-color: var(--themeSec);
@@ -138,7 +163,6 @@
   color: white;
   border-radius: 1rem;
   gap: 1rem;
-  box-shadow: rgba(149, 157, 165, 0.614) 0px 8px 24px;
 }
 .serviceCardHeading {
   font-size: 2rem;
@@ -186,6 +210,7 @@
 }
 #whoContent {
   font-size: 1.8rem;
+  color: white;
 }
 .abt {
   font-size: 1.5rem;
@@ -254,8 +279,8 @@
 }
 @media screen and (max-width:768px) {
   #welcomeImage{
-    width: 45vw;
-    border-radius: 1rem;
+    width: 50vw;
+    border-radius: 0.3rem;
   }
   .testiImage{
     max-width: 40px;

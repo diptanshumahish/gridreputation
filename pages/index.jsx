@@ -2,12 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import s from "../styles/Home.module.css";
 import Marquee from "react-fast-marquee";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Link from "next/link";
 
 export default function Home() {
   const [height, setHeight] = useState("0vh");
   const [shown, setShown] = useState("none");
+  useEffect(()=>{
+
+  })
   return (
     <div className={s.container}>
       <Head>
@@ -78,10 +81,13 @@ export default function Home() {
             </div>
             <div>
               <Marquee gradientWidth={0} id={s.mar} speed="40">
-                <div className={s.marEle}>ANDROID DEVELOPMENT</div>
-                <div className={s.marEle}>REP MANAGEMENT</div>
-                <div className={s.marEle}>SEO BUILDING</div>
+                <div className={s.marEle}>Android Development </div>
+                <div className={s.marEle}>Online Rep Management </div>
+                <div className={s.marEle}>Seo Buidling </div>
               </Marquee>
+            </div>
+            <div id={s.discover}>
+              Discover
             </div>
            
           </div>
@@ -91,63 +97,67 @@ export default function Home() {
               width={400}
               height={600}
               id={s.welcomeImage}
-            />{" "}
+            />
           </div>
         </div>
-        <section id={s.numbers}>
-          <div id={s.innerNum}>
-            <div className={s.in}>
-              <div className={s.inHead}>
-                #1
+        <section id={s.who}>
+          <div id={s.servicesHead}>
+            Who are we?
+            <div id={s.serviveSub}>know us</div>
+          </div>
+          <div id={s.whoBack}>
+            <div id={s.whoContent}>
+              We are a <span>digital marketing agency</span> established in
+              2022. <br />
+              Digital Marketing, SEO, Web Development and ofcourse , Exceptional
+              brand reputation management is what has gotten the protogy on the
+              top in such a short period! <br /> <br />
+              <div className={s.abt}>
+                <span>Real time stats and ORM</span> With our online reputation
+                management service, you will be able to monitor 24/7 how
+                consumers perceive your company. This eases out the whole
+                process of taking strategic action when necessary to improve
+                your brand&apos;s image.
               </div>
-              <div className={s.subHeadIn}>
-                Asia&apos;s Top Best ORM Company
+              <br />
+              <div className={s.abt}>
+                <span>Amazing websites</span> Keeping your customers&apos; attention
+                in fast-moving markets can be quite the challenge, especially if
+                your site doesn&apos;t follow web design and development trends.
+                That&apos;s why our team is always here to save the day when you get
+                sick and tired of the outdated styles, layouts, and features.
+              </div>
+              <br />
+              <div className={s.abt}>
+                <span>The best SEO practises With SEO</span>, there are no
+                shortcuts, and here at The Protogy, you&apos;ll get a personalized
+                blend of off-page SEO, on-page SEO that will make your business
+                touch the sky​!
+              </div>
+              <br />
+              <div className={s.abt}>
+                <span>Remarkable digital marketing</span> Get the email
+                marketing, content, guest blogging, and social media to work for
+                you instead of against you!
+              </div>
+              <br />
+              <div className={s.abt}>
+                Monitor your <span>brand reputation</span>, quickly identify any
+                changes in sentiment and see how perceptions of your brand shift
+                over time
               </div>
             </div>
-            <div className={s.in}>
-              <div className={s.inHead}>
-                99%
-              </div>
-              <div className={s.subHeadIn}>
-                Customer Satisfaction
-              </div>
-            </div>
-            <div className={s.in}>
-              <div className={s.inHead}>
-                100+
-              </div>
-              <div className={s.subHeadIn}>
-                Projects Completed
-              </div>
-            </div>
-            <div className={s.in}>
-              <div className={s.inHead}>
-                20+
-              </div>
-              <div className={s.subHeadIn}>
-               Industries we worked for
-              </div>
-            </div>
-            <div className={s.in}>
-              <div className={s.inHead}>
-                5+
-              </div>
-              <div className={s.subHeadIn}>
-                Years of experience
-              </div>
-            </div>
-            <div className={s.in}>
-              <div className={s.inHead}>
-                50+
-              </div>
-              <div className={s.subHeadIn}>
-                Highly qualified ORM expert Team
-              </div>
+            <div id={s.servicesImage}>
+              <Image
+                src="/assets/about.svg"
+                width={400}
+                height={400}
+                id={s.servImage}
+              />
             </div>
           </div>
-
-          
         </section>
+      
         <section id={s.services}>
           <div id={s.servicesHead}>
             What do we offer?
@@ -222,63 +232,61 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id={s.who}>
-          <div id={s.servicesHead}>
-            Who are we?
-            <div id={s.serviveSub}>know us</div>
-          </div>
-          <div id={s.whoBack}>
-            <div id={s.whoContent}>
-              We are a <span>digital marketing agency</span> established in
-              2022. <br />
-              Digital Marketing, SEO, Web Development and ofcourse , Exceptional
-              brand reputation management is what has gotten the protogy on the
-              top in such a short period! <br /> <br />
-              <div className={s.abt}>
-                <span>Real time stats and ORM</span> With our online reputation
-                management service, you will be able to monitor 24/7 how
-                consumers perceive your company. This eases out the whole
-                process of taking strategic action when necessary to improve
-                your brand&apos;s image.
+        <section id={s.numbers}>
+          <div id={s.innerNum}>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                #1
               </div>
-              <br />
-              <div className={s.abt}>
-                <span>Amazing websites</span> Keeping your customers&apos; attention
-                in fast-moving markets can be quite the challenge, especially if
-                your site doesn&apos;t follow web design and development trends.
-                That&apos;s why our team is always here to save the day when you get
-                sick and tired of the outdated styles, layouts, and features.
-              </div>
-              <br />
-              <div className={s.abt}>
-                <span>The best SEO practises With SEO</span>, there are no
-                shortcuts, and here at The Protogy, you&apos;ll get a personalized
-                blend of off-page SEO, on-page SEO that will make your business
-                touch the sky​!
-              </div>
-              <br />
-              <div className={s.abt}>
-                <span>Remarkable digital marketing</span> Get the email
-                marketing, content, guest blogging, and social media to work for
-                you instead of against you!
-              </div>
-              <br />
-              <div className={s.abt}>
-                Monitor your <span>brand reputation</span>, quickly identify any
-                changes in sentiment and see how perceptions of your brand shift
-                over time
+              <div className={s.subHeadIn}>
+                Asia&apos;s Top Best ORM Company
               </div>
             </div>
-            <div id={s.servicesImage}>
-              <Image
-                src="/assets/about.svg"
-                width={400}
-                height={400}
-                id={s.servImage}
-              />
+            <div className={s.in}>
+              <div className={s.inHead}>
+                99%
+              </div>
+              <div className={s.subHeadIn}>
+                Customer Satisfaction
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                100+
+              </div>
+              <div className={s.subHeadIn}>
+                Projects Completed
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                20+
+              </div>
+              <div className={s.subHeadIn}>
+               Industries we worked for
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                5+
+              </div>
+              <div className={s.subHeadIn}>
+                Years of experience
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                50+
+              </div>
+              <div className={s.subHeadIn}>
+                Highly qualified ORM expert Team
+              </div>
             </div>
           </div>
+
+          
         </section>
+        
         <section id={s.testi}>
         <div id={s.servicesHead}>
             Testimonials

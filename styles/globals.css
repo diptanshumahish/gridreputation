@@ -11,8 +11,8 @@ body {
   display: none;
 }
 :root{
-  --back:#eae3db;
-  --themeColor:#9e1a63;
+  --back:#151514;
+  --themeColor:#2499c0;
   --themeSec:#1163aa;
 }
 a {
@@ -33,19 +33,19 @@ nav{
   top:0;
   right: 0;
   left: 0;
-  border-bottom: 1px solid black;
-  background-color: var(--back);
   z-index: 100;
 }
 #navLeft{
   font-size: 2rem;
   font-weight: 600;
+  color: white;
 }
 #navRight{
   display: flex;
   gap:1rem;
   align-items: center;
   font-size: 1.2rem;
+  color: white;
   
 }
 #navMobileRight{
@@ -75,6 +75,9 @@ footer a{
   }
 }
 @media screen and (max-width:760px) {
+  nav{
+    background-color: #151514;
+  }
   *{
     font-size: 60%;
   }
@@ -105,9 +108,11 @@ footer a{
     transition: 400ms ease;
     gap:1rem;
     flex-direction: column;
+    
   }
   .mobele{
     font-size: 2.5rem;
     font-weight: 600;
+    color: white;
   }
 }
