@@ -85,7 +85,7 @@
     background-color: #e9e7e7;
 }
 #serHeadIn{
-   font-size: 1rem;
+   font-size: 1.2rem;
 }
 #getSerHead{
     font-size: 2.5rem;
@@ -148,4 +148,27 @@
         padding-top: 6rem;
         padding-bottom:1rem ;
     }
+    .ele{
+      
+        font-size: 2rem;
+     
+    }
+    .inp{
+   
+        padding: 1.5rem;
+        font-size: 1.5rem;
+      
+    
+    }
+    .inp::placeholder{
+        font-size: 1.5rem;
+    }
+    .inp:active{
+        font-size: 1.5rem;
+    }
+    #submit{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
 }
