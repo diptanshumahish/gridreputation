@@ -28,13 +28,14 @@ nav{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 1rem 4rem;
+  padding: 0rem 4rem;
   align-items: center;
   position: fixed;
   top:0;
   right: 0;
   left: 0;
   z-index: 100;
+  background-color: var(--back);
 }
 #navLeft{
   font-size: 2rem;
@@ -45,9 +46,9 @@ nav{
   display: flex;
   gap:1rem;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   
 }
 #navMobileRight{
