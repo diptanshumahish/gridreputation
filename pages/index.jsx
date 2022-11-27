@@ -138,7 +138,7 @@ export default function Home() {
             </div>
             <div className={s.in}>
               <div className={s.inHead}>
-                #50+
+                50+
               </div>
               <div className={s.subHeadIn}>
                 Highly qualified ORM expert Team
