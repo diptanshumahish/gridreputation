@@ -1,0 +1,151 @@
+#ser{
+    padding: 5rem;
+    font-size: 4rem;
+    color: var(--themeColor);
+    font-weight: 600;
+}
+#sub{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #111;
+}
+#cards{
+    padding: 5rem;
+    padding-top: 0;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+}
+.card{
+    background-color: var(--themeColor);
+    box-shadow: rgba(149, 157, 165, 0.614) 0px 8px 24px;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.cardHead{
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+}
+.content{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    font-size: 1.7rem;
+    max-width: 60%;
+    color: #ffffffd3;
+}
+.options{
+    display: flex;
+    gap:2rem;
+}
+.option{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.subh{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.getService{
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+#serviceAvail{
+    position: fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #11111156;
+    backdrop-filter: blur(4px);
+}
+#servIn{
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(53, 54, 55, 0.614) 0px 8px 24px;
+    background-color: #e9e7e7;
+}
+#serHeadIn{
+   font-size: 1rem;
+}
+#getSerHead{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--themeColor);
+}
+.ele{
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.inp{
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    resize: none;
+
+}
+.inp::placeholder{
+    font-size: 1rem;
+}
+#long{
+    height: 100px;
+}
+#submit{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: var(--themeColor);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.9rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#close{
+    position: relative;
+    top:1rem;
+    right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+@media screen and (max-width:700px) {
+    .content{
+        flex-direction: column-reverse;
+    }
+    .text{
+        max-width: 100%;
+    }
+    .options{
+        flex-direction: column;
+    }
+    #cards{
+        padding: 2rem;
+        padding-top: 5rem;
+    }
+    #ser{
+        padding-top: 6rem;
+        padding-bottom:1rem ;
+    }
+}

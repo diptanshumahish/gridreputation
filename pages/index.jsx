@@ -83,45 +83,7 @@ export default function Home() {
                 <div className={s.marEle}>SEO BUILDING</div>
               </Marquee>
             </div>
-            <div id={s.testiomials}>
-              <div className={s.testCard}>
-                <Image
-                  src="https://images.unsplash.com/photo-1550682290-d071c75759f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
-                  width={50}
-                  height={50}
-                  className={s.testiImage}
-                />
-                <div className={s.testiText}>
-                  The place where everything makes sense
-                  <div className={s.testPerson}>Katty</div>
-                </div>
-              </div>
-              <div className={s.testCard}>
-                <Image
-                  src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
-                  width={50}
-                  height={50}
-                  className={s.testiImage}
-                />
-                <div className={s.testiText}>
-                  My first choice when going for digital marketing, the best
-                  services indeed!
-                  <div className={s.testPerson}>John</div>
-                </div>
-              </div>
-              <div className={s.testCard}>
-                <Image
-                  src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                  width={50}
-                  height={50}
-                  className={s.testiImage}
-                />
-                <div className={s.testiText}>
-                  Hands down the best services!
-                  <div className={s.testPerson}>Kevin</div>
-                </div>
-              </div>
-            </div>
+           
           </div>
           <div id={s.headerImage}>
             <Image
@@ -132,6 +94,60 @@ export default function Home() {
             />{" "}
           </div>
         </div>
+        <section id={s.numbers}>
+          <div id={s.innerNum}>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                #1
+              </div>
+              <div className={s.subHeadIn}>
+                Asia&apos;s Top Best ORM Company
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                99%
+              </div>
+              <div className={s.subHeadIn}>
+                Customer Satisfaction
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                100+
+              </div>
+              <div className={s.subHeadIn}>
+                Projects Completed
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                20+
+              </div>
+              <div className={s.subHeadIn}>
+               Industries we worked for
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                5+
+              </div>
+              <div className={s.subHeadIn}>
+                Years of experience
+              </div>
+            </div>
+            <div className={s.in}>
+              <div className={s.inHead}>
+                #50+
+              </div>
+              <div className={s.subHeadIn}>
+                Highly qualified ORM expert Team
+              </div>
+            </div>
+          </div>
+
+          
+        </section>
         <section id={s.services}>
           <div id={s.servicesHead}>
             What do we offer?
@@ -263,8 +279,53 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section id={s.testi}>
+        <div id={s.servicesHead}>
+            Testimonials
+            <div id={s.serviveSub}>See what others say about us</div>
+          </div>
+          <div id={s.testiomials}>
+              <div className={s.testCard}>
+                <Image
+                  src="https://images.unsplash.com/photo-1550682290-d071c75759f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+                  width={50}
+                  height={50}
+                  className={s.testiImage}
+                />
+                <div className={s.testiText}>
+                  The place where everything makes sense
+                  <div className={s.testPerson}>Katty</div>
+                </div>
+              </div>
+              <div className={s.testCard}>
+                <Image
+                  src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+                  width={50}
+                  height={50}
+                  className={s.testiImage}
+                />
+                <div className={s.testiText}>
+                  My first choice when going for digital marketing, the best
+                  services indeed!
+                  <div className={s.testPerson}>John</div>
+                </div>
+              </div>
+              <div className={s.testCard}>
+                <Image
+                  src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  width={50}
+                  height={50}
+                  className={s.testiImage}
+                />
+                <div className={s.testiText}>
+                  Hands down the best services!
+                  <div className={s.testPerson}>Kevin</div>
+                </div>
+              </div>
+            </div>
+        </section>
         <footer>
-          &copy; Grid Reputation 2022 <br />
+            &copy; Grid Reputation 2022 <br />
           <Link href="/contactus">Contact Us</Link>
         </footer>
       </main>
