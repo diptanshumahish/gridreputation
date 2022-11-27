@@ -27,24 +27,24 @@
 }
 #welcomeImage {
   height: auto;
-  width: 25vw;
+  width: 40vw;
   border-radius: 2rem;
   /* box-shadow: rgba(149, 157, 165, 0.714) 0px 8px 24px; */
 }
 #headerText {
-  width: 60vw;
+  width: 50vw;
 }
 #headerText h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   color: white;
   margin: 0;
-
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 #headerContent {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  color: var(--themeColor);
 }
 .marEle {
   font-size: 3rem;
@@ -56,6 +56,7 @@
   background-color:var(--themeColor);
   padding: 1rem 3rem;
   border-radius: 0.4rem;
+  margin-top: 1rem;
   color: white;
   font-size: 3rem;
   width: fit-content;
@@ -279,7 +280,8 @@
 }
 @media screen and (max-width:768px) {
   #welcomeImage{
-    width: 50vw;
+    width: 70vw;
+    height: auto;
     border-radius: 0.3rem;
   }
   .testiImage{

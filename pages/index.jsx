@@ -48,7 +48,7 @@ export default function Home() {
           </div>
         </div>
         <nav>
-          <div id="navLeft">Grid Reputation.</div>
+          <div id="navLeft"><Image src='/GR.svg' height={70} width={90}/></div>
           <div id="navRight">
             <Link href="/">
               <div className="navEle">Home</div>
@@ -74,11 +74,11 @@ export default function Home() {
         </nav>
         <div id={s.header}>
           <div id={s.headerText}>
-            <h1>GRID REPUTATION.</h1>
-            <div id={s.headerContent}>
-              we are a digital marketing agency established in 2022. Your first
-              choice when it comes to chosing the best digital marketing agency.
+          <div id={s.headerContent}>
+             Your first choice when it comes to chosing the best marketing Agency!
             </div>
+            <h1>GRID REPUTATION.</h1>
+            
             <div>
               <Marquee gradientWidth={0} id={s.mar} speed="40">
                 <div className={s.marEle}>Android Development </div>
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
           <div id={s.headerImage}>
             <Image
-              src="https://images.unsplash.com/photo-1550682290-d071c75759f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+              src="/GR.svg"
               width={400}
               height={600}
               id={s.welcomeImage}
