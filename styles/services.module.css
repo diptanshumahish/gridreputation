@@ -7,7 +7,7 @@
 #sub{
     font-size: 2.5rem;
     font-weight: 500;
-    color: #111;
+    color: white;
 }
 #cards{
     padding: 5rem;
@@ -52,6 +52,7 @@
 .subh{
     font-size: 1.4rem;
     font-weight: 500;
+    
 }
 .getService{
     margin-top: 2rem;
@@ -82,10 +83,11 @@
     display: flex;
     flex-direction: column;
     box-shadow: rgba(53, 54, 55, 0.614) 0px 8px 24px;
-    background-color: #e9e7e7;
+    background-color:var(--back);
 }
 #serHeadIn{
    font-size: 1.2rem;
+   color: white;
 }
 #getSerHead{
     font-size: 2.5rem;
@@ -96,6 +98,7 @@
     padding: 0.5rem 0;
     font-size: 1.5rem;
     font-weight: 500;
+    color: white;
 }
 .inp{
     width: 100%;
@@ -131,6 +134,10 @@
     cursor: pointer;
 }
 @media screen and (max-width:700px) {
+    #ser{
+        padding: 4rem;
+        margin-top: 4rem;
+    }
     .content{
         flex-direction: column-reverse;
     }

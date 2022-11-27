@@ -99,14 +99,17 @@ export default function Services(){
               </div>
             </div>
        
-        <nav>
-          <div id="navLeft">Grid Reputation.</div>
+            <nav>
+          <div id="navLeft"><Image src='/GR.svg' height={70} width={90}/></div>
           <div id="navRight">
             <Link href="/">
               <div className="navEle">Home</div>
             </Link>
             <Link href="/services">
               <div className="navEle">Services</div>
+            </Link>
+            <Link href="#who">
+              <div className="navEle">About Us</div>
             </Link>
            <Link href='/contactus'>
            <div className="navEle" id="contactUs">

@@ -56,6 +56,9 @@ export default function Home() {
             <Link href="/services">
               <div className="navEle">Services</div>
             </Link>
+            <Link href="#who">
+              <div className="navEle">About Us</div>
+            </Link>
            <Link href='/contactus'>
            <div className="navEle" id="contactUs">
               Contact Us
@@ -78,12 +81,13 @@ export default function Home() {
              Your first choice when it comes to chosing the best marketing Agency!
             </div>
             <h1>GRID REPUTATION.</h1>
-            
+            <div id={s.a}>A digital Marketing Agency.</div>
             <div>
               <Marquee gradientWidth={0} id={s.mar} speed="40">
-                <div className={s.marEle}>Android Development </div>
-                <div className={s.marEle}>Online Rep Management </div>
-                <div className={s.marEle}>Seo Buidling </div>
+                <div className={s.marEle}>Android Development |</div>
+                <div className={s.marEle}>Online Rep Management | </div>
+                <div className={s.marEle}>Seo Buidling |</div>
+                <div className={s.marEle}>Content Writing |</div>
               </Marquee>
             </div>
             <div id={s.discover}>
@@ -100,8 +104,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <section id={s.who}>
-          <div id={s.servicesHead}>
+        <section id="who" >
+        <div id={s.who}>
+        <div id={s.servicesHead}>
             Who are we?
             <div id={s.serviveSub}>know us</div>
           </div>
@@ -156,8 +161,8 @@ export default function Home() {
               />
             </div>
           </div>
+        </div>
         </section>
-      
         <section id={s.services}>
           <div id={s.servicesHead}>
             What do we offer?
@@ -285,8 +290,7 @@ export default function Home() {
           </div>
 
           
-        </section>
-        
+        </section>        
         <section id={s.testi}>
         <div id={s.servicesHead}>
             Testimonials
