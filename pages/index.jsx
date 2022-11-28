@@ -197,7 +197,7 @@ export default function Home() {
                     Android Development
                   </div>
                   <div className={s.serviceCardDetails}>
-                    Get the best android Development support!
+                    Get the best android Development support from our staff!
                   </div>
                 </div>
               </div>
