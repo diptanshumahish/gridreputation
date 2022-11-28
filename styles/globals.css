@@ -62,16 +62,45 @@ nav{
   cursor: pointer;
 }
 footer{
-  background-color: var(--themeColor);
+  background-color: var(--themeSec);
   color: white;
   text-align: center;
-  padding: 2rem;
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4rem;
+  font-size: 1rem;
 }
-footer a{
+#footerLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#footName{
+  font-size: 2rem;
+  font-weight: bold;
+}
+#footerRight{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap:0.8rem
+}
+#footerRightHead{
   font-size: 1.5rem;
   font-weight: 500;
 }
+#footEm{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#socials{
+  display: flex;
+  align-items: center;
+  gap:0.5rem;
+}
+
 @media screen and (max-width:1200px) {
   *{
     font-size: 90%;
@@ -118,5 +147,25 @@ footer a{
     font-size: 2.5rem;
     font-weight: 600;
     color: white;
+  }
+  footer{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #footerRight{
+    align-items: flex-start;
+  }
+  #footName{
+    font-size: 3rem;
+
+  }
+  #footerRightHead{
+    display: none
+  }
+  #footSub{
+    font-size: 1.5rem;
+  }
+  #footEm{
+    font-size: 2rem;
   }
 }
