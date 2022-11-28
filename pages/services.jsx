@@ -249,34 +249,39 @@ export default function Services(){
           </div>
         </div>
         <footer>
-          <div id="footerLeft">
-            <Image src="/GR.svg" width={100} height={100} />
-            <div id="footName">&copy;Grid Reputation.</div>
-            <div id="footSub">A digital marketing agency</div>
+        <div id="footerMain">
+        <div id="footerLeft">
+          <Image src="/GR.svg" width={120} height={120} />
+          <div id="footName">Grid Reputation.</div>
+          <div id="footSub">A digital marketing agency</div>
+        </div>
+        <div id="footerRight">
+          <div id="footerRightHead">Grid Reputation</div>
+          <div id="footEm">
+            <Link href="mailto:support@gridreputation.com">
+              support@gridreputation.com
+            </Link>
           </div>
-          <div id="footerRight">
-            <div id="footerRightHead">Grid Reputation</div>
-            <div id="footEm">
-              <Link href="mailto:contact@gridreputation.com">
-                contact@gridreputation.com
-              </Link>
-            </div>
-            <div id="socials">
-              <Link href='https://www.linkedin.com/company/grid-reputation/'>
-                <Image src="/assets/linkedin.png" width={35} height={35} />
-              </Link>
-              <Link href='https://www.facebook.com/profile.php?id=100087967937908&mibextid=ZbWKwL'>
-                <Image src="/assets/fb.png" width={35} height={35} />
-              </Link>
-              <Link href='https://twitter.com/GridReputation'>
-                <Image src="/assets/twit.png" width={35} height={35} />
-              </Link>
-              <Link href='https://www.instagram.com/gridreputation/'>
-                <Image src="/assets/insta.png" width={35} height={35} />
-              </Link>
-            </div>
+          <div id="socials">
+            <Link href='https://www.linkedin.com/company/grid-reputation/'>
+              <Image src="/assets/linkedin.png" width={35} height={35} />
+            </Link>
+            <Link href='https://www.facebook.com/profile.php?id=100087967937908&mibextid=ZbWKwL'>
+              <Image src="/assets/fb.png" width={35} height={35} />
+            </Link>
+            <Link href='https://twitter.com/GridReputation'>
+              <Image src="/assets/twit.png" width={35} height={35} />
+            </Link>
+            <Link href='https://www.instagram.com/gridreputation/'>
+              <Image src="/assets/insta.png" width={35} height={35} />
+            </Link>
           </div>
-        </footer>
+        </div>
+        </div>
+        <div id="footerBottom">
+          &copy;Grid Reputation 2022
+        </div>
+      </footer>
             </main>
         </div>
     )
