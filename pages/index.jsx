@@ -6,20 +6,29 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Aos from 'aos'
 import "aos/dist/aos.css";
+import { useInView,InView } from "react-intersection-observer";
+
 
 export default function Home() {
+  // const {ref1,inView}=useInView();
   const [height, setHeight] = useState("0vh");
   const [shown, setShown] = useState("none");
   //loading animation
   const [loading,setLoafing]=useState(true);
+  var[num1,changeNum1]=useState(0)
   
   useEffect(() => {
     Aos.init();
     Aos.refresh();
+
+
     setTimeout(()=>{
       setLoafing(false);
-    },2000)
+    },90)
   });
+  function change1(){
+    
+  }
   
   return (
     <div className={s.container}>
@@ -258,7 +267,9 @@ export default function Home() {
             </div>
           </div>
           <div className={s.in} data-aos="flip-left">
-            <div className={s.inHead}>99%</div>
+            <InView as="div" onChange={(inView, entry) => 
+              change1()}>
+                <div className={s.inHead} id="one">{num1}</div></InView>
             <div className={s.subHeadIn}>Customer Satisfaction</div>
           </div>
           <div className={s.in} data-aos="flip-left">
@@ -270,7 +281,7 @@ export default function Home() {
             <div className={s.subHeadIn}>Industries we worked for</div>
           </div>
           <div className={s.in} data-aos="flip-left">
-            <div className={s.inHead}>5+</div>
+            <div className={s.inHead} >5+</div>
             <div className={s.subHeadIn}>Years of experience</div>
           </div>
           <div className={s.in}data-aos="flip-left">
