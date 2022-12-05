@@ -91,13 +91,13 @@
    color: white;
 }
 #getSerHead{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--themeColor);
 }
 .ele{
     padding: 0.5rem 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     color: white;
 }

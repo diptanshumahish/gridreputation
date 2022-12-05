@@ -24,7 +24,6 @@ export default function Home() {
       setLoafing(false);
     }, 90);
   });
-  function change1() {}
 
   return (
     <div className={s.container}>
@@ -34,7 +33,7 @@ export default function Home() {
           name="description"
           content="The official website for Grid Reputation organization"
         />
-        <link rel="icon" href="/grLogo.png" />
+        <link rel="icon" href="/grLogo.ico"/>
       </Head>
       {loading ? (
         <div id="loader">
