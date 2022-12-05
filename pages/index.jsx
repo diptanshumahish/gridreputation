@@ -144,7 +144,7 @@ export default function Home() {
                 <div className={s.us} id={s.adj}>
                   <div className={s.te} data-aos="fade-right">
                     <span> The best SEO practises</span> <br /> You&apos;ll get
-                    a You'll get a customised mix of on-page and off-page SEO
+                    a You&apos;ll get a customised mix of on-page and off-page SEO
                     that will take your company to new heights!
                     <br /> <br />
                     <span>Remarkable digital marketing</span> <br /> Get social
