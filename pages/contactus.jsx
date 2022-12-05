@@ -32,6 +32,9 @@ export default function ContactUs(){
             <Link href="/services"  >
               <div className="mobele">Services</div>
             </Link>
+            <Link href="/aboutus">
+                <div className="mobele">About Us</div>
+              </Link>
             <Link href="/contactus"  onClick={() => {
               setHeight("0vh");
               setShown("none");

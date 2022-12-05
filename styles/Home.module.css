@@ -167,6 +167,9 @@
   gap: 1rem;
 
 }
+#adj{
+  margin-top: 2rem;
+}
 .serviceCard:hover{
   background-color: var(--themeColor);
   transition: 500ms ;
