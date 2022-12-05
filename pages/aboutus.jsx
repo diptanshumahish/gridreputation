@@ -164,7 +164,7 @@ export default function AboutUs() {
                 </div>
               </div>
             </div>
-            <div id="footerBottom">&copy;Grid Reputation 2022</div>
+            <div id="footerBottom">&copy; Grid Reputation 2022</div>
           </footer>
       </main>
     </div>

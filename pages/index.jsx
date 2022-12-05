@@ -110,7 +110,7 @@ export default function Home() {
           <div id={s.header}>
             <div id={s.headerText}>
               <div id={s.headerContent}>
-                Your first choice when it comes to chosing the best marketing
+                Your first choice when it comes to chosing the best Marketing
                 Agency!
               </div>
               <h1>GRID REPUTATION.</h1>
@@ -150,15 +150,8 @@ export default function Home() {
                     <span>Remarkable digital marketing</span> <br /> Get social
                     media, guest blogging, email marketing, and other tactics to
                     work for you rather than against you!
-                    <br /> <br />
-                    <span>Real-time stats and ORM</span> <br /> You will be able
-                    to keep tabs on how customers view your business every
-                    single day with the help of our online reputation management
-                    solution.
-                    <br /> <br />
-                    <span>Amazing websites</span> <br /> Our staff is always
-                    ready to come to your rescue when you become weary of the
-                    dated styles, layouts, and features.
+            
+
                   </div>
                   <div className={s.im} data-aos="fade-left">
                     <Image
@@ -390,7 +383,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div id="footerBottom">&copy;Grid Reputation 2022</div>
+            <div id="footerBottom">&copy; Grid Reputation 2022</div>
           </footer>
         </main>
       )}

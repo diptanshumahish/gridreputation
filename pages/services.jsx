@@ -360,7 +360,7 @@ export default function Services() {
               </div>
             </div>
           </div>
-          <div id="footerBottom">&copy;Grid Reputation 2022</div>
+          <div id="footerBottom">&copy; Grid Reputation 2022</div>
         </footer>
       </main>
     </div>

@@ -136,7 +136,7 @@ export default function ContactUs(){
         </div>
         </div>
         <div id="footerBottom">
-          &copy;Grid Reputation 2022
+          &copy; Grid Reputation 2022
         </div>
       </footer>
             </main>
